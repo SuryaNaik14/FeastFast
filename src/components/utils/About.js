@@ -6,9 +6,9 @@ const About=()=>{
         <div className="about">
             <h1>About</h1>
             <h3>is about page</h3>
-            <User name={"siddesha for fun"} location={"Karnataka,India"} />
+            <User name={"Surya Naik"} location={"Karnataka,India"} />
 
-            <UserClass name={"siddesha for class"} location={"Karnataka,India"} />
+            <UserClass name={"Surya Naik"} location={"Karnataka,India"} />
         </div>
     )
 }

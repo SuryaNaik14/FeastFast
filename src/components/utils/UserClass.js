@@ -6,9 +6,9 @@ class UserClass extends React.Component {
 
     this.state = {
       userInfo: {
-        name: "obs",
+        name: "surya",
         location: "KA",
-        avatar_url: "https://obs.com",
+        avatar_url: "https://surya.com",
       },
     };
 
@@ -16,7 +16,7 @@ class UserClass extends React.Component {
   }
 
   async componentDidMount() {
-    const data = await fetch("https://api.github.com/users/siddeshob");
+    const data = await fetch("");
     const json = await data.json();
     console.log(json.name);
 
@@ -29,12 +29,12 @@ class UserClass extends React.Component {
     const { name, location, avatar_url } = this.state.userInfo;
     return (
       <div>
-        <div className="user-card">
+        {/* <div className="user-card">
           <img src={avatar_url} />
           <h2>name: {name}</h2>
           <h3>Location:{location}</h3>
-          <h4>Contact:siddeshaob2001@gmail.com</h4>
-        </div>
+          <h4>suryanaik01@gmail.com</h4>
+        </div> */}
       </div>
     );
   }
